@@ -2,7 +2,7 @@
 
 
 
-# [Plenoxels: Radiance Fields without Neural Networks](https://arxiv.org/abs/2112.05131) ([local](../local/plenoxel.pdf))
+# [Plenoxels: Radiance Fields without Neural Networks](https://arxiv.org/abs/2112.05131)
 
 
 Published: 2021-12
@@ -32,4 +32,4 @@ Given a set of images of an object or scene, a sparse voxel grid is constructed 
 ## Questions
 
 ## Related
-[1] [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/abs/2003.08934) ([notes](nerf.md))
+[1] [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/abs/2003.08934) ([notes](202003_NeRF_Representing_Scenes_as_Neural_Radiance_Fields_for_View_Synthesis.md))

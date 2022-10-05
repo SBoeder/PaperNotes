@@ -7,7 +7,7 @@
 
 Published: 2019-06
 
-Tags: [ON](../tags/on.md)
+Tags: [occupancy-network](../tags/on.md)
 
 tl;dr:
 ## Summary

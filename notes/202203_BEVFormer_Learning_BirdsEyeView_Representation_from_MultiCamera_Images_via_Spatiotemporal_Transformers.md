@@ -27,8 +27,8 @@ Evaulated on nuScenes and Waymo datasets and consistently outperforms prior meth
 - The paper has a lot of grammar and spelling errors.
 
 ## Questions
-- Related Work 2.1 : I do not quite understand how bilinear interpolation is used here. (look into deformable attention paper)
+
 ## Related
 [1] [DETR3D: 3D Object Detection from Multi-view Images via 3D-to-2D Queries](https://arxiv.org/abs/2110.06922)  
-[2] [Lift, Splat, Shoot: Encoding Images from Arbitrary Camera Rigs by Implicitly Unprojecting to 3D](https://arxiv.org/abs/2008.05711)  
+[2] [Lift, Splat, Shoot: Encoding Images from Arbitrary Camera Rigs by Implicitly Unprojecting to 3D](https://arxiv.org/abs/2008.05711) ([notes]())
 [3] [Vision Transformer with Deformable Attention](https://arxiv.org/abs/2201.00520)  

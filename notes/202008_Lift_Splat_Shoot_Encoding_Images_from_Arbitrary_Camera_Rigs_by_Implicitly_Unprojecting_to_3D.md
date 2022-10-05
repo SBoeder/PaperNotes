@@ -18,6 +18,7 @@ End-to-end differential method to train a BEV model from multi-camera images. Tr
 - Symmetric properties of classical multi-view methods are preserved, but in contrast to these the proposed method is fully differentiable. 
 
 ## Notes
+- Middle-way between one-hot depth prediction of [1] and uniform depth prediction of [2]. This paper predicts depth **distribution**.
 - Supervision of the "lift" and "splat" components come from the ground truth task (hence, they cannot be learned without the "shoot" part).
 - However, training does not require ground truth depth.
 
@@ -25,3 +26,4 @@ End-to-end differential method to train a BEV model from multi-camera images. Tr
 
 ## Related
 [1] [Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving](https://arxiv.org/abs/1812.07179) ([notes](notes/pseudolidar.md))
+[2] [OFT: Orthographic Feature Transform for Monocular 3D Object Detection](https://arxiv.org/pdf/1811.08188.pdf)
