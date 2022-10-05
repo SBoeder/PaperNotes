@@ -9,12 +9,13 @@
 |Date|Name|Link|Tags|
 | :--- | :--- | :--- | :--- |
 |2022-03|[BEVFormer: Learning Birds-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers](notes/bevformer.md)|[paper](https://arxiv.org/abs/2203.17270)|[BEV](tags/bev.md)|
+|2022-01|[Vision Transformer with Deformable Attention](notes/202201_Vision_Transformer_with_Deformable_Attention.md)|[paper](https://arxiv.org/abs/2201.00520)||
 
 ## 2021
 
 |Date|Name|Link|Tags|
 | :--- | :--- | :--- | :--- |
-|2021-12|[Plenoxels: Radiance Fields without Neural Networks](notes/plenoxel.md)|[paper](https://arxiv.org/abs/2112.05131) ([local](local/plenoxel.pdf))|[NeRF](tags/nerf.md)|
+|2021-12|[Plenoxels: Radiance Fields without Neural Networks](notes/plenoxel.md)|[paper](https://arxiv.org/abs/2112.05131) ([local](../local/plenoxel.pdf))|[NeRF](tags/nerf.md)|
 |2021-03|[Full Surround Monodepth from Multiple Cameras](notes/fsm.md)|[paper](https://arxiv.org/abs/2104.00152) ([local](../local/fsm.pdf))|[self-supervised](tags/selfsupervised.md)|
 
 ## 2020

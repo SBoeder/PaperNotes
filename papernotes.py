@@ -4,8 +4,8 @@ from bs4 import BeautifulSoup
 from mdutils.mdutils import MdUtils
 from datetime import datetime
 import pandas as pd
+import string
 
-# DATABASE_FILE_NAME = "database.pkl"
 NOTES_FILE_NAME = "README.md"
 
 f = open(NOTES_FILE_NAME,"r")
@@ -37,6 +37,10 @@ for paper in paperarray:
     
     ## check if local pdf exists
     local = os.path.isfile(notes.replace("notes/","local/").replace(".md",".pdf"))
+    
+    ## if notes is left empty, fill with default naming convention
+    if notes == "":
+        notes = "notes/"+ date.strftime("%Y%m") + "_"+ name.translate(str.maketrans("","",string.punctuation)).replace(" ","_") + ".md"
     
     ## add paper object to dict
     paperdict[name] = {"notes":notes,"paper":paper,"tags": tags,"taglinks": taglinks,"date": date,"local":local}           

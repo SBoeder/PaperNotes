@@ -24,4 +24,4 @@ End-to-end differential method to train a BEV model from multi-camera images. Tr
 ## Questions
 
 ## Related
-[1] [Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving](https://arxiv.org/abs/1812.07179) [notes](notes/pseudolidar.md)
+[1] [Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving](https://arxiv.org/abs/1812.07179) ([notes](notes/pseudolidar.md))

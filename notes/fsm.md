@@ -17,11 +17,18 @@ Self-supervised learning of a model for 360° Point-Cloud generation from a mult
 
 <img src="../images/fsm1.PNG" alt="image warping process" width="750"/>
 
-
+1. For a target image $I_T$, context (or reference) images $I_c$ are obtained. Context images are preceding or following $I_t$ either temporally or spatially (from a neighboring camera). 
+2. Model predicts depth for target image and relative pose to reference images. 
+3. Each target pixel is projected into context images using depth and pose (and bilinear interpolation).
+4. Each pixel in the context image are now warped back to the target image (using calibrated camera matrices).
+5. Reprojection loss between target image and synthesized image is used as training signal.
 
 ## Notes
 - Using non-overlapping masks and self-occlusion masks to prevent usual multi-camera problems like the static world assumption or birghtness inconsistencies. 
+- Use structure similarity loss (SSIM) and photometric error in the loss.
+
 ## Questions
+- Pose consistency contraints are not mentioned in the loss function? Are they just added to the loss from equation 1?
 
 ## Related
 [1] [Spatial Transformer Networks](https://arxiv.org/abs/1506.02025)
